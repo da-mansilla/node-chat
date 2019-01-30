@@ -1,0 +1,30 @@
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.nav{
+background: #5899E2;
+}
+.logo
+{
+	font-family: 'Kaushan Script';
+	font-size: 30px;
+}
+#contentWrap
+{
+	display: none
+}
+.users
+{
+	background: #5899E2;
+}
+.error{
+	color: red;
+}
+.whisper{
+	color: gray;
+	font-size: italic;
+}
+#chat{
+	height: 250px!important;
+	width: 100%!important;
+}
