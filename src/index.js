@@ -5,7 +5,7 @@ const socketio = require('socket.io');
 const mongoose = require('mongoose');
 
 //DB connection
-mongoose.connect('mongodb://<Agustin>:<elcapomascapo12,>@ds011785.mlab.com:11785/chat-database-nodejs')
+mongoose.connect('mongodb://<Agustin>:<elcapomascapo12>@ds011785.mlab.com:11785/chat-database-nodejs')
 		.then(db => console.log('DB is connected'))
 		.catch(err => console.error(err));
 
